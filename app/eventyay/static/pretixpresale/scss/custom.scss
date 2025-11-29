@@ -40,6 +40,11 @@
         position: relative;
         text-decoration: none;
         padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
+    }
+
+    a.underline {
+        border-bottom: none;
     }
 
     a.underline::after {
